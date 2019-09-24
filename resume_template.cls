@@ -8,10 +8,11 @@
 \renewcommand{\labelitemii}{$\circ$}
 
 \titleformat{\section}
-{\Large\scshape\raggedright}
-{}{10em}
+{\Large\scshape\center}
+{}{0em}
 {}
 [\titlerule]
+
 
 \titleformat{\subsection}
 {\large\scshape\raggedright}
@@ -30,9 +31,9 @@
 \noindent\hrulefill
 }
 
-\newcommand{\contact}[4]{
+\newcommand{\contact}[3]{
 \begin{center}
-#1 $\bullet$ #2 $\bullet$ #3 $\bullet$ #4
+#1 $\bullet$ #2 $\bullet$ #3
 \end{center}
 }
 
